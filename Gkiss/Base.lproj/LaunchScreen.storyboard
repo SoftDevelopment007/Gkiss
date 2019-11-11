@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YYh-5d-Ipf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0_splash" translatesAutoresizingMaskIntoConstraints="NO" id="cec-AJ-4lX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L67-yb-2O9">
+                                <rect key="frame" x="117.66666666666669" y="296" width="140" height="140"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0_splash_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="WtP-sU-SWW">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="WtP-sU-SWW" firstAttribute="top" secondItem="L67-yb-2O9" secondAttribute="top" id="8QO-gT-66V"/>
+                                    <constraint firstAttribute="trailing" secondItem="WtP-sU-SWW" secondAttribute="trailing" id="FtW-GP-5lJ"/>
+                                    <constraint firstAttribute="width" constant="140" id="LoO-iT-gFw"/>
+                                    <constraint firstAttribute="bottom" secondItem="WtP-sU-SWW" secondAttribute="bottom" id="MNa-iO-zPK"/>
+                                    <constraint firstAttribute="width" secondItem="L67-yb-2O9" secondAttribute="height" multiplier="1:1" id="seY-zH-qGT"/>
+                                    <constraint firstItem="WtP-sU-SWW" firstAttribute="leading" secondItem="L67-yb-2O9" secondAttribute="leading" id="wz6-Bu-FYv"/>
+                                </constraints>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8a9-s3-mLy">
+                                <rect key="frame" x="10" y="738" width="355" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#1 Gay Dating App for Gay and Bi Men" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jf2-zW-oLG">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                        <color key="textColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Jf2-zW-oLG" secondAttribute="bottom" id="pO1-bJ-W5g"/>
+                                    <constraint firstAttribute="height" constant="30" id="r3D-uy-oaz"/>
+                                    <constraint firstItem="Jf2-zW-oLG" firstAttribute="top" secondItem="8a9-s3-mLy" secondAttribute="top" id="uMk-zR-iMW"/>
+                                    <constraint firstItem="Jf2-zW-oLG" firstAttribute="leading" secondItem="8a9-s3-mLy" secondAttribute="leading" id="wjL-qh-xcB"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jf2-zW-oLG" secondAttribute="trailing" id="zXc-wO-ljZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="L67-yb-2O9" firstAttribute="centerX" secondItem="YYh-5d-Ipf" secondAttribute="centerX" id="63L-tt-pSp"/>
+                            <constraint firstItem="cec-AJ-4lX" firstAttribute="top" secondItem="YYh-5d-Ipf" secondAttribute="top" id="D5C-WS-FiQ"/>
+                            <constraint firstAttribute="trailing" secondItem="8a9-s3-mLy" secondAttribute="trailing" constant="10" id="EdW-G7-y5Q"/>
+                            <constraint firstItem="e3Y-6L-DBZ" firstAttribute="bottom" secondItem="8a9-s3-mLy" secondAttribute="bottom" constant="10" id="HgU-ad-7dL"/>
+                            <constraint firstItem="8a9-s3-mLy" firstAttribute="leading" secondItem="YYh-5d-Ipf" secondAttribute="leading" constant="10" id="Kvb-BN-akv"/>
+                            <constraint firstItem="L67-yb-2O9" firstAttribute="centerY" secondItem="YYh-5d-Ipf" secondAttribute="centerY" constant="-40" id="KwT-qC-M2r"/>
+                            <constraint firstItem="8a9-s3-mLy" firstAttribute="centerX" secondItem="YYh-5d-Ipf" secondAttribute="centerX" id="Pm1-al-cRg"/>
+                            <constraint firstItem="cec-AJ-4lX" firstAttribute="leading" secondItem="YYh-5d-Ipf" secondAttribute="leading" id="h1K-ZK-5Yp"/>
+                            <constraint firstAttribute="bottom" secondItem="cec-AJ-4lX" secondAttribute="bottom" id="vaN-6i-sdz"/>
+                            <constraint firstAttribute="trailing" secondItem="cec-AJ-4lX" secondAttribute="trailing" id="xaz-KM-N0V"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="e3Y-6L-DBZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="0_splash" width="375" height="812"/>
+        <image name="0_splash_logo.png" width="522" height="540"/>
+    </resources>
+</document>
