@@ -48,12 +48,14 @@ class FavoritesViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func setupViews() {
-        img_profile.layer.cornerRadius = img_profile.bounds.size.height / 2.0
+        //img_profile.layer.cornerRadius = img_profile.bounds.size.height / 2.0
 
         
     }
 
     @IBAction func onTappedProfileButton(_ sender: Any) {
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "InviteViewController") as? InviteViewController
+        self.navigationController?.pushViewController(vc!, animated: true)
         
     }
     
@@ -109,5 +111,8 @@ class FavoritesViewController: UIViewController, UITableViewDelegate, UITableVie
     @objc func GoOtherProfile(sd:UIButton)  {
         let index = (sd as! UIButton).tag
 
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
+        self.navigationController?.pushViewController(vc!, animated: true)
+        
     }
 }

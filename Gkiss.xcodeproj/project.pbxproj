@@ -36,6 +36,17 @@
 		EB14917423790D03003D9590 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14917323790D03003D9590 /* MessagesViewController.swift */; };
 		EB14917623790D1F003D9590 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14917523790D1F003D9590 /* SettingViewController.swift */; };
 		EB14917823793800003D9590 /* 3_sent_image.png in Resources */ = {isa = PBXBuildFile; fileRef = EB149177237937FF003D9590 /* 3_sent_image.png */; };
+		EB4A6D9E237A96E6002C0225 /* 8_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4A6D9C237A96E5002C0225 /* 8_cancel.png */; };
+		EB4A6D9F237A96E6002C0225 /* 8_Search.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4A6D9D237A96E5002C0225 /* 8_Search.png */; };
+		EB4A6DA1237A970E002C0225 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A6DA0237A970E002C0225 /* InviteViewController.swift */; };
+		EB4A6DA3237AA7F7002C0225 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A6DA2237AA7F7002C0225 /* DetailViewController.swift */; };
+		EB4A6DA6237B0AE2002C0225 /* 3_adduser.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4A6DA4237B0ADC002C0225 /* 3_adduser.png */; };
+		EB4A6DA7237B0AE2002C0225 /* 5_image1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4A6DA5237B0AE1002C0225 /* 5_image1.png */; };
+		EB4A6DAD237B1005002C0225 /* 3_BlockSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4A6DA8237B1003002C0225 /* 3_BlockSelected.png */; };
+		EB4A6DAE237B1005002C0225 /* 3_Fav.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4A6DA9237B1004002C0225 /* 3_Fav.png */; };
+		EB4A6DAF237B1005002C0225 /* 3_FavSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4A6DAA237B1004002C0225 /* 3_FavSelected.png */; };
+		EB4A6DB0237B1005002C0225 /* 3_Chat.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4A6DAB237B1004002C0225 /* 3_Chat.png */; };
+		EB4A6DB1237B1005002C0225 /* 3_Block.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4A6DAC237B1004002C0225 /* 3_Block.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +83,17 @@
 		EB14917323790D03003D9590 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		EB14917523790D1F003D9590 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		EB149177237937FF003D9590 /* 3_sent_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_sent_image.png; sourceTree = "<group>"; };
+		EB4A6D9C237A96E5002C0225 /* 8_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_cancel.png; sourceTree = "<group>"; };
+		EB4A6D9D237A96E5002C0225 /* 8_Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_Search.png; sourceTree = "<group>"; };
+		EB4A6DA0237A970E002C0225 /* InviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		EB4A6DA2237AA7F7002C0225 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EB4A6DA4237B0ADC002C0225 /* 3_adduser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_adduser.png; sourceTree = "<group>"; };
+		EB4A6DA5237B0AE1002C0225 /* 5_image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_image1.png; sourceTree = "<group>"; };
+		EB4A6DA8237B1003002C0225 /* 3_BlockSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_BlockSelected.png; sourceTree = "<group>"; };
+		EB4A6DA9237B1004002C0225 /* 3_Fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_Fav.png; sourceTree = "<group>"; };
+		EB4A6DAA237B1004002C0225 /* 3_FavSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_FavSelected.png; sourceTree = "<group>"; };
+		EB4A6DAB237B1004002C0225 /* 3_Chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_Chat.png; sourceTree = "<group>"; };
+		EB4A6DAC237B1004002C0225 /* 3_Block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_Block.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +160,8 @@
 				EB14917123790CF1003D9590 /* GkissViewController.swift */,
 				EB14917323790D03003D9590 /* MessagesViewController.swift */,
 				EB14917523790D1F003D9590 /* SettingViewController.swift */,
+				EB4A6DA0237A970E002C0225 /* InviteViewController.swift */,
+				EB4A6DA2237AA7F7002C0225 /* DetailViewController.swift */,
 			);
 			path = Gkiss;
 			sourceTree = "<group>";
@@ -145,6 +169,15 @@
 		EB14914723764D0D003D9590 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EB4A6DAC237B1004002C0225 /* 3_Block.png */,
+				EB4A6DA8237B1003002C0225 /* 3_BlockSelected.png */,
+				EB4A6DAB237B1004002C0225 /* 3_Chat.png */,
+				EB4A6DA9237B1004002C0225 /* 3_Fav.png */,
+				EB4A6DAA237B1004002C0225 /* 3_FavSelected.png */,
+				EB4A6DA4237B0ADC002C0225 /* 3_adduser.png */,
+				EB4A6DA5237B0AE1002C0225 /* 5_image1.png */,
+				EB4A6D9C237A96E5002C0225 /* 8_cancel.png */,
+				EB4A6D9D237A96E5002C0225 /* 8_Search.png */,
 				EB149177237937FF003D9590 /* 3_sent_image.png */,
 				EB14916F23790607003D9590 /* profile_none.png */,
 				EB1491672378FAFD003D9590 /* 3_filter.png */,
@@ -234,21 +267,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4A6D9F237A96E6002C0225 /* 8_Search.png in Resources */,
 				EB1491622377408D003D9590 /* 2_gkiss.png in Resources */,
 				EB14915823766D67003D9590 /* 1_sign_back.png in Resources */,
 				EB149140237645A3003D9590 /* LaunchScreen.storyboard in Resources */,
 				EB1491692378FAFE003D9590 /* 3_filter.png in Resources */,
 				EB14915123765714003D9590 /* 1_sign_or.png in Resources */,
 				EB14917023790608003D9590 /* profile_none.png in Resources */,
+				EB4A6DA7237B0AE2002C0225 /* 5_image1.png in Resources */,
 				EB14914B23764D0D003D9590 /* 0_splash_logo.png in Resources */,
 				EB14913D237645A3003D9590 /* Assets.xcassets in Resources */,
 				EB149164237741DA003D9590 /* 2_message.png in Resources */,
 				EB14914A23764D0D003D9590 /* 0_splash in Resources */,
+				EB4A6DAF237B1005002C0225 /* 3_FavSelected.png in Resources */,
 				EB14915B23767A48003D9590 /* 1_sign_eye_show.png in Resources */,
+				EB4A6DA6237B0AE2002C0225 /* 3_adduser.png in Resources */,
 				EB14917823793800003D9590 /* 3_sent_image.png in Resources */,
+				EB4A6DAD237B1005002C0225 /* 3_BlockSelected.png in Resources */,
 				EB14913B237645A0003D9590 /* Main.storyboard in Resources */,
 				EB149166237746FC003D9590 /* 2_profile.png in Resources */,
 				EB14916A2378FAFE003D9590 /* 15_profile_avatar.png in Resources */,
+				EB4A6DAE237B1005002C0225 /* 3_Fav.png in Resources */,
+				EB4A6DB0237B1005002C0225 /* 3_Chat.png in Resources */,
+				EB4A6D9E237A96E6002C0225 /* 8_cancel.png in Resources */,
+				EB4A6DB1237B1005002C0225 /* 3_Block.png in Resources */,
 				EB14914F2376556C003D9590 /* 1_sign_logo in Resources */,
 				EB14915C23767A48003D9590 /* 1_sign_eye_hide in Resources */,
 				EB14916023773FDC003D9590 /* 2_favorite.png in Resources */,
@@ -303,6 +345,7 @@
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SimpleTabBarController/SimpleTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
@@ -325,6 +368,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
@@ -372,6 +416,8 @@
 				EB149138237645A0003D9590 /* SignInController.swift in Sources */,
 				EB14915E23773928003D9590 /* MainTabBarViewControllerViewController.swift in Sources */,
 				EB14915423765F1F003D9590 /* Extention.swift in Sources */,
+				EB4A6DA3237AA7F7002C0225 /* DetailViewController.swift in Sources */,
+				EB4A6DA1237A970E002C0225 /* InviteViewController.swift in Sources */,
 				EB14917423790D03003D9590 /* MessagesViewController.swift in Sources */,
 				EB149136237645A0003D9590 /* AppDelegate.swift in Sources */,
 				EB14917623790D1F003D9590 /* SettingViewController.swift in Sources */,

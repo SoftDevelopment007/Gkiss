@@ -54,12 +54,14 @@ class MessagesViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func setupViews() {
-        img_profile.layer.cornerRadius = img_profile.bounds.size.height / 2.0
+        //img_profile.layer.cornerRadius = img_profile.bounds.size.height / 2.0
         
         
     }
     
     @IBAction func onTappedProfileButton(_ sender: Any) {
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "InviteViewController") as? InviteViewController
+        self.navigationController?.pushViewController(vc!, animated: true)
         
     }
     
@@ -102,8 +104,14 @@ class MessagesViewController: UIViewController, UITableViewDelegate, UITableView
          })
          }*/
         
-        cell?.view_text_message.isHidden = false
-        cell?.view_data_message.isHidden = true
+        if indexPath.row % 2 == 0 {
+            cell?.view_text_message.isHidden = false
+            cell?.view_data_message.isHidden = true
+        } else {
+            cell?.view_text_message.isHidden = true
+            cell?.view_data_message.isHidden = false
+        }
+        
         
         cell?.img_avatar.image = UIImage(named: "15_profile_avatar.png")
         cell?.lbl_username.text = "Simon" //g_Favorites_Array[indexPath.row].username
@@ -116,6 +124,9 @@ class MessagesViewController: UIViewController, UITableViewDelegate, UITableView
     
     @objc func GoOtherProfile(sd:UIButton)  {
         let index = (sd as! UIButton).tag
+        
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
+        self.navigationController?.pushViewController(vc!, animated: true)
         
     }
 }

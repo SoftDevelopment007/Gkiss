@@ -25,6 +25,21 @@ var g_Profile: Profile_Info = Profile_Info(id: "", email: "", username: "", avat
 var g_Favorites_Array: Array<Profile_Info> = Array<Profile_Info>()
 
 
+
+//Add User page's table Sturucture
+struct Invite_Data_Info {
+    
+    var name:       String
+    var avatar:     String
+    var phone:      String
+    
+    var image:      UIImage
+}
+var g_InviteData_Array: Array<Invite_Data_Info> = Array<Invite_Data_Info>()
+var g_InviteData_Contact_Array: Array<Invite_Data_Info> = Array<Invite_Data_Info>()
+
+
+
 // ==============================================================================================================
 import Foundation
 import UIKit

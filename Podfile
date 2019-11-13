@@ -43,4 +43,6 @@ target 'Gkiss' do
   pod 'APAddressBook/Swift'
   pod 'PhoneNumberKit'
 
+  pod 'SideMenu', '~> 5.0'
+  
 end

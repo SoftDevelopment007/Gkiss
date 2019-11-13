@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "22712637FB7B985033044E93A6826771"
+               BlueprintIdentifier = "F48C70D3F756B3D265C3E7EA47C1C37E"
                BuildableName = "SimpleTabBarController.bundle"
                BlueprintName = "SimpleTabBarController-SimpleTabBarController"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22712637FB7B985033044E93A6826771"
+            BlueprintIdentifier = "F48C70D3F756B3D265C3E7EA47C1C37E"
             BuildableName = "SimpleTabBarController.bundle"
             BlueprintName = "SimpleTabBarController-SimpleTabBarController"
             ReferencedContainer = "container:Pods.xcodeproj">

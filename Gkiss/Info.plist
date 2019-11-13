@@ -2,6 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    
+    
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Your current location will be used for calculating of distance with other users and nearby search results.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Your current location will be used for calculating of distance with other users and nearby search results.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Your current location will be used for calculating of distance with other users and nearby search results.</string>
+    
+    <key>NSCameraUsageDescription</key>
+    <string>Your camera will be used to upload your profile photo. Your photo will not be shared without your permission.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Your photo library will be used to upload your profile photo. Your photo will not be shared without your permission.</string>
+    
+    <key>NSContactsUsageDescription</key>
+    <string>Allow access to contacts?</string>
+    
+    
+    
+    
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
